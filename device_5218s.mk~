@@ -17,11 +17,6 @@ endif
 PRODUCT_COPY_FILES += \
     $(LOCAL_KERNEL):kernel
 
-# Recovery
-PRODUCT_COPY_FILES += \
-    device/coolpad/5218s/recovery/fstab.qcom:recovery/root/fstab.qcom \
-    device/coolpad/5218s/recovery/rmt_storage_recovery:recovery/root/sbin/rmt_storage_recover
-
 $(call inherit-product, build/target/product/full.mk)
 
 PRODUCT_BUILD_PROP_OVERRIDES += BUILD_UTC_DATE=0

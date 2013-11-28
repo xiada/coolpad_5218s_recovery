@@ -27,5 +27,5 @@ BOARD_FLASH_BLOCK_SIZE := 131072
 
 TARGET_PREBUILT_KERNEL := device/coolpad/5218s/kernel
 TARGET_RECOVERY_FSTAB := device/coolpad/5218s/recovery/fstab.qcom
-BOARD_CUSTOM_GRAPHICS := ../../../device/coolpad/5218s/recovery/graphics.c
+BOARD_CUSTOM_GRAPHICS := device/coolpad/5218s/recovery/graphics.c
 BOARD_HAS_NO_SELECT_BUTTON := true
